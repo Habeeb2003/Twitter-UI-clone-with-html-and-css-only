@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../CSS/Loginpage.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        
+        <i class="fa fa-twitter" style="font-size: 40px;"></i>
+        <h1>Log in to Twitter</h1>
+        <input type="email number" placeholder="Phone, email, or username">
+        <br>
+        <input type="password" placeholder="Password" id="pass">
+        <br>
+        <a href="home.html" onclick="checkPassWordChar()" class="btn  Loginbtn">Log in</a>
+        <br>
+        <div>
+            <a href="#" class="linka">Forgot password?</a>
+            <a href="#" class="linka">Sign up for Twitter</a>
+        </div>
+       
+    </main>
+
+
+    <script>
+        let passwordChar = document.querySelector('#pass')
+        function checkPassWordChar(params) {
+            let a = passwordChar.value;
+            let rege = /[a-z]{}[A-Z]{}[0-9]{}/
+
+        }
+    </script>
+</body>
+</html>

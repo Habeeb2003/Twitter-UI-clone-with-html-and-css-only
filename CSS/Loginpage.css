@@ -1,0 +1,43 @@
+main {
+  max-width: fit-content;
+  margin-left: auto !important;
+  margin-right: auto;
+  padding: 20px;
+}
+main i {
+  color: #1DA1F2;
+}
+main h1 {
+  font-size: 35px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-weight: bolder;
+}
+main input {
+  width: 330px;
+  height: 60px;
+  margin-bottom: 25px;
+  border: 0.5px solid lightgray;
+  border-radius: 5px;
+}
+main input:focus {
+  border: 1px solid #1DA1F2;
+}
+main .Loginbtn {
+  width: 330px;
+  border-radius: 25px;
+  background-color: #8ED0F8;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+}
+main div {
+  margin-top: 20px;
+  text-align: center;
+}
+main div .linka {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=Loginpage.css.map */

@@ -1,0 +1,181 @@
+main{
+    padding-right: 0px !important;
+    padding-left: 0px !important ;
+}
+.left-section{
+    border-right: 1px solid lightgray;
+    width: fit-content;
+}
+nav{
+    position: fixed !important;
+    top: 0px !important;
+    bottom: 0px !important;
+    left: 0px !important;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 30px !important;
+    // width: 250px;
+    max-width: 300px;
+    
+    .logo-div{
+        width: 150px;
+        text-align: left !important;
+        i{
+            padding-left: 10px;
+            color: #1DA1F2;
+        }
+    }
+    ul{
+        a{
+            width: max-content;
+            display: flex;
+            justify-content: space-between;
+            font-size: 21px;
+            font-weight: bolder;
+            color: black;
+            padding: 10px !important;
+
+            i{
+                width: 40px;
+            }
+            // span{
+            //    // margin-left: 20px;
+            // }
+            
+        }
+        a:hover{
+            border: 1px solid transparent !important;
+            border-radius: 30px !important;
+            color: #1DA1F2;
+            background-color: #E8F5FE !important;
+        }
+    }
+}
+.tweet{
+    .tweet-icon{
+        display: none;
+
+        img{
+            width: 30px; 
+            color: white !important;
+        }
+    }
+    button{
+        width: 220px;
+        height: 50px;
+        background-color: #1A91DA !important;
+        border-radius: 25px !important;
+    }
+}
+a{
+    color: black;
+    width: max-content;
+    
+    .media{
+        width: max-content;
+        padding: 10px !important;
+        .image{
+            width: 45px;
+            height: 45px;
+            border: 1px solid transparent;
+            border-radius: 100%;
+            overflow: hidden;
+        }
+        h6{
+            font-weight: bold;
+            margin-bottom: 0px;
+        }
+        p{
+            font-size: 15px;
+            margin-bottom: 0px;
+        }
+        i{
+            margin-left: 25px;
+        }
+    }
+    .media:hover{
+        border: 1px solid transparent !important;
+        border-radius: 30px !important;
+        color: #1DA1F2;
+        background-color: #E8F5FE !important;
+    }
+}
+.middle-section{
+    border-right: 1px solid lightgray;
+    div{
+        display: flex;
+        justify-content: space-between;
+        position: sticky;
+        top: 0px;
+        border-bottom: 1px solid lightgray;
+    }
+}
+.right-section{
+    padding-left: 20px;
+    padding-right: 20px;
+    i{
+        margin-top: 20px;
+        width: 50px;
+        border-radius: 25px;
+        border-left: none !important;
+    }
+    input{
+        background-color: #EBEEF0;
+        border-radius: 25px ;
+    }
+}
+@media(max-width: 1280px){
+.left-section{
+    max-width: 130px;
+    nav{
+        max-width: 130px;
+        ul{
+            .book{
+                display: none;
+            }
+            .listing{
+                display: none;
+            }
+            a{
+                i{
+                    width: fit-content;
+                }
+                span{
+                    display: none;
+                }
+                
+            }
+        }
+        .tweet{
+            button{
+                display: none;
+            }
+            .tweet-icon{
+                display: block;
+                width: 50px;
+                height: 50px;
+                background-color: #1A91DA;
+                align-items: center;
+                border: 1px solid transparent;
+                border-radius: 100%;
+                text-align: center;
+                img{
+                    color: white !important;
+                }
+            }
+        }
+        .mediaDiv{
+            text-align: left !important;
+            width: 180px;
+            .myProfile{
+                .myMedia{
+                    display: none;
+                }
+                i{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+}

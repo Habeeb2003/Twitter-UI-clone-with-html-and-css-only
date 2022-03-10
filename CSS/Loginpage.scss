@@ -1,0 +1,43 @@
+main{
+    max-width: fit-content;
+    margin-left: auto  !important;
+    margin-right: auto;
+    padding: 20px;
+    i{     
+        color: #1DA1F2;  
+    }
+    h1{
+        font-size: 35px;
+        margin-top: 30px;
+        margin-bottom: 25px;
+        font-weight: bolder;
+    }
+    input{
+        width: 330px;
+        height: 60px;
+        margin-bottom: 25px;
+        border: 0.5px solid lightgray;
+        border-radius: 5px;
+    }
+    input:focus{
+        // border-color: #1DA1F2;
+        border: 1px solid #1DA1F2;
+        
+    }
+    .Loginbtn{
+        width: 330px;
+        border-radius: 25px;
+        background-color: #8ED0F8;
+        font-weight: bold;
+        color: white;
+        padding: 10px;
+    }
+    div{
+        margin-top: 20px;
+        text-align: center;
+        .linka{
+            font-size: 15px;
+            margin-left: 10px;
+        }
+    }
+}

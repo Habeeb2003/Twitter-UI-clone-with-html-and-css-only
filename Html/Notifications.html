@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../CSS/Notifications.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="row container-fluid">
+        <section class="col-3 left-section">
+            <nav class="navbar d-flex">
+                <div class="div">
+                    <div class="navbar-brand logo-div gone-small">
+                        <i class="fa fa-twitter" style="font-size: 35px;"></i>
+                    </div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="home.html" class="nav-link nav_a">
+                                <i class="fa fa-home"></i>
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item searchy">
+                            <a href="#" class="nav-link">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item gone-small">
+                            <a href="Explore.html" class="nav-link nav_a">
+                                <i class="fa fa-hashtag"></i>
+                                <span>Explore</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Notifications.html" class="nav-link active page nav_a">
+                                <i class="fa fa-bell-o"></i>
+                                <span>Notifications</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Message.html" class="nav-link nav_a">
+                                <i class="fa fa-envelope-o"></i>
+                                <span>Messages</span>
+                            </a>
+                        </li>
+                        <li class="nav-item book gone-small">
+                            <a href="Bookmark.html" class="nav-link nav_a">
+                                <i class="fa fa-bookmark-o"></i>
+                                <span>Bookmarks</span>
+                            </a>
+                        </li>
+                        <li class="nav-item listing gone-small">
+                            <a href="List.html" class="nav-link nav_a">
+                                <i class="fa fa-list-alt"></i>
+                                <span>Lists</span>
+                            </a>
+                        </li>
+                        <li class="nav-item gone-small">
+                            <a href="Profile.html" class="nav-link nav_a">
+                                <i class="fa fa-user-o"></i>
+                                <span>Profile</span>
+                            </a>
+                        </li>
+                        <li class="nav-item gone-small listy">
+                            <a href="#" class="nav-link nav_a">
+                                <i class="fa fa-envelope-o"></i>
+                                <span>More</span>
+                                <div class="list-group-flush more_more">
+                                    <a href="#" class="list-group-item list-group-item-action not_a">
+                                        <i class="fa fa-comment"></i>
+                                        <span>Topics</span>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action not_a">
+                                        <i class="fa fa-flash"></i>
+                                        <span>Moments</span>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action not_a">
+                                        <i class="fa fa-list-alt"></i>
+                                        <span>Newsletters</span>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action not_a">
+                                        <i class="fa fa-pencil-square-o"></i>
+                                        <span>Twitter Ads</span>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action not_a">
+                                        <i class="fa fa-bar-chart-o"></i>
+                                        <span>Analytics</span>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action not_a">
+                                        <i class="fa fa-gear"></i>
+                                        <span>Settings and privacy</span>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action not_a">
+                                        <i class="fa fa-question-circle-o"></i>
+                                        <span>Help Center</span>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action not_a">
+                                        <i class="fa fa-pencil-square-o"></i>
+                                        <span>Display</span>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action not_a">
+                                        <i class="fa fa-keyboard-o"></i>
+                                        <span>keyboard shortcuts</span>
+                                    </a>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tweet">
+                        <a href="#" class="btn btn-primary tweet-icon">
+                            <img src="../Images/tweeet-removebg-preview.png" alt="">
+                        </a>
+                        <button type="button" class=" btn btn-primary" data-toggle="modal" data-target="#myModal">
+                            <span>Tweet</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="mediaDiv gone-small">
+                    <a href="#">
+                        <div class="media myProfile">
+                            <div class="image">
+                                <img src="https://pbs.twimg.com/profile_images/1382657334439186434/BC8h7uPb_normal.jpg" alt="">
+                            </div>
+                            <div class="media-body ml-2 myMedia">
+                                <h6>Tawaliu Habeeb</h6>
+                                <p>@HabeebTawaliu</p>
+                               
+                            </div>
+                            <i class="fa fa-ellipsis-h"></i>
+                        </div>
+                    </a>
+                </div>
+            </nav>
+            <div class="modal mi_modal" id="myModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+              
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <!-- <h4 class="modal-title">Modal Heading</h4> -->
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+              
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="sub-middle-heading bg-white pl-3 pr-3">
+                            <div class=" d-flex">
+                                <div class="" style="width: 50px; height: 50px; border-radius: 100%; overflow: hidden;">
+                                    <img style="width: 100%;" src="https://pbs.twimg.com/profile_images/1382657334439186434/BC8h7uPb_normal.jpg" alt="">
+                                </div>
+                                <!-- <h5 class="mb-0 ml-3 pt-2">What"s happening?</h5> -->
+                                <textarea class="ml-3" name="" id="" cols="30" rows="4" placeholder="What's happening?" style="border: transparent;"></textarea>
+                            </div>
+                            <a href="#" class=""  style="color: #1A91DA; margin-left: 65px;">
+                                <i class="fa fa-globe"></i>
+                                <span><b>Everyone can reply</b></span>
+                            </a>
+                            <div class="d-flex justify-content-between tweet-icons">
+                                <div class="icons">
+                                    <a href="#"><i class="fa fa-image"></i></a>
+                                    <a href="#"><i class="fa fa-image"></i></a>
+                                    <a href="#"><i class="fa fa-bar-chart"></i></a>
+                                    <a href="#"><i class="fa fa-smile-o"></i></a>
+                                    <a href="#"><i class="fa fa-calendar-o"></i></a>
+                                </div>
+                                <div class="tweetbtn">
+                                    <a href="#" class="btn btn-primary"><b>Tweet</b></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section class="col middle-section pl-0 pr-0">
+            <div class="middle-heading pl-3 pr-3" >
+                <h5><b>Notifications</b></h5>
+                <i style="font-size: 20px;" class="fa fa-gear gear pt-1"></i>
+            </div>
+            <ul class="nav nav-tabs My_noti_tabs" role="tablist">
+                <li class="nav-item">
+                    <a href="#All" class="nav-link active" data-toggle="tab"><b>All</b></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Mentions" class="nav-link" data-toggle="tab"><b>Mentions</b></a>
+                </li>
+            </ul>
+            <div class="tab-content mi_tabs">
+                <div class="tab-pane active sub_tabs list-group-flush" id="All">
+                    <a href="#" class="notify list-group-item-action">
+                        <div class="lefty" >
+                            <i style="font-size: 30px;" class="fa fa-gear"></i>
+                        </div>
+                        <div class="righty">
+                            <div class=" d-flex justify-content-between">
+                                <div class="bg-secondary" style="width: 50px; height: 50px; border-radius: 100%;">
+                                    <img  src="" alt="">
+                                </div>
+                                <i class="fa fa-ellipsis-h"></i>
+                            </div>
+                            <p>Recommended For You</p>
+                            <p>How old were you when #GTA released</p>
+                        </div>
+                    </a>
+                    <a href="#" class="notify list-group-item-action">
+                        <div class="lefty" >
+                            <i style="font-size: 30px;" class="fa fa-gear"></i>
+                        </div>
+                        <div class="righty">
+                            <div class=" d-flex justify-content-between">
+                                <div class="bg-secondary" style="width: 50px; height: 50px; border-radius: 100%;">
+                                    <img  src="" alt="">
+                                </div>
+                                <i class="fa fa-ellipsis-h"></i>
+                            </div>
+                            <p>Recommended For You</p>
+                            <p>Fellas if</p>
+                            <p class="mb-0">-she has everyone's attention</p>
+                            <p class="mb-0">-you saw her once and can stop thinking about her</p>
+                            <p>-tried to find her on the internet but don't know her name</p>
+                            <p>She is not your crush, she's Crew Dragon's Zero-g indicator</p>
+                        </div>
+                    </a>
+                    <a href="#" class="notify list-group-item-action">
+                        <div class="lefty" >
+                            <i style="font-size: 30px;" class="fa fa-gear"></i>
+                        </div>
+                        <div class="righty">
+                            <div class=" d-flex justify-content-between">
+                                <div class="bg-secondary" style="width: 50px; height: 50px; border-radius: 100%;">
+                                    <img  src="" alt="">
+                                </div>
+                                <i class="fa fa-ellipsis-h"></i>
+                            </div>
+                            <p>Recent Tweet from <b>Chess.com</b></p>
+                            <p>A highly professional @anishgirinot only agreed to be interviewed after
+                                losing his chance to win the #FIDECandidates but also congratulated
+                                @lachesisq while pointing out that he, like many players, doesn't like the tiebreak rules.
+                                 Do you agree with the Ducth GM?
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#" class="notify list-group-item-action">
+                        <div class="lefty" >
+                            <i style="font-size: 30px;" class="fa fa-gear"></i>
+                        </div>
+                        <div class="righty">
+                            <div class=" d-flex justify-content-between">
+                                <div class="bg-secondary" style="width: 50px; height: 50px; border-radius: 100%;">
+                                    <img  src="" alt="">
+                                </div>
+                                <i class="fa fa-ellipsis-h"></i>
+                            </div>
+                            <p>Recommended For You</p>
+                            <p>GTA 6 map???!!!</p>
+                        </div>
+                    </a>
+                    <a href="#" class="notify list-group-item-action">
+                        <div class="lefty" >
+                            <i style="font-size: 30px;" class="fa fa-gear"></i>
+                        </div>
+                        <div class="righty">
+                            <div class=" d-flex justify-content-between">
+                                <div class="bg-secondary" style="width: 50px; height: 50px; border-radius: 100%;">
+                                    <img  src="" alt="">
+                                </div>
+                                <i class="fa fa-ellipsis-h"></i>
+                            </div>
+                            <p>Recommended For You</p>
+                            <p>Made my day</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="tab-pane sub_tabs_1" id="Mentions">
+                    <div class="text-center">
+                        <div class="mentions">
+                            <h4><b>Nothing to see here --- yet</b></h4>
+                            <p>When someone mentions you, you'll find it here.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="col-4 right-section">
+            <div class="sticky-top search-bar">
+                <div class=" input-group">
+                    <div class="input-group-prepend">
+                        <i class="input-group-text fa fa-search"></i>
+                    </div>
+                    <input type="search" class="form-control form-control-lg" name="" id="">
+                </div>
+            </div>
+            <div class=" trends-for-you">
+                <div class="d-flex justify-content-between trendyou">
+                    <h5 style="margin-bottom: 0px;">Trends for you</h5>
+                    <i style="font-size: 20px;" class="fa fa-gear gear"></i>
+                </div>
+                <div class="list-group-flush listingg">
+                    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between">
+                        <div>
+                            <p class="small mb-0">Politics . Trending</p>
+                            <h6 class="mb-0">#EndSARS</h6>
+                            <p class="small mb-0">42.1k Tweets</p>
+                        </div>
+                        <div>
+                            <i class="fa fa-ellipsis-h"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between">
+                        <div>
+                            <p class="small mb-0">Trending in Nigeria</p>
+                            <h6 class="mb-0">Happy 420</h6>
+                            <p class="small mb-0">73k Tweets</p>
+                        </div>
+                        <div>
+                            <i class="	fa fa-ellipsis-h"></i>
+                        </div>
+                    </a>
+                    <a href="#" class=" list-group-item list-group-item-action d-flex justify-content-between">
+                        <div>
+                            <p class="small mb-0">Business & finance . Trending</p>
+                            <h6 class="mb-0">#DogeDay</h6>
+                            <p class="small mb-0">320k Tweets</p>
+                        </div>
+                        <div>
+                            <i class="	fa fa-ellipsis-h"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between">
+                        <div>
+                            <p class="small mb-0">Politics . Trending</p>
+                            <h6 class="mb-0">Chad</h6>
+                            <p class="small mb-0">38.9k Tweets</p>
+                        </div>
+                        <div>
+                            <i class="	fa fa-ellipsis-h"></i>
+                        </div>
+                    </a>
+                    <div class=" showmore">
+                        <a href="#" class=" list-group-item list-group-item-action d-flex justify-content-between">
+                            <div>
+                                <p class="small mb-0">UEFA Champions League . Trending</p>
+                                <h6 class="mb-0">Chelsea and city</h6>
+                                <p class="small mb-0">69.8k Tweets</p>
+                            </div>
+                            <div>
+                                <i class="	fa fa-ellipsis-h"></i>
+                            </div>
+                        </a>
+                        <a href="#" class=" list-group-item list-group-item-action d-flex justify-content-between show-more">
+                            <h6 style="color: #1DA1F2;">Show more</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <footer class="pl-2">
+                <a href="#">Terms of services</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookie Policy</a>
+                <a href="#">Ads info</a>
+                <a href="#">More...</a>
+                <span>© 2021 Twitter, Inc.</span>
+            </footer>
+        </section>
+    </main>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

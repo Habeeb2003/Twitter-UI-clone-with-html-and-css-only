@@ -1,0 +1,435 @@
+main {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.left-section {
+  border-right: 1px solid lightgray;
+  width: fit-content;
+}
+
+nav {
+  position: fixed !important;
+  top: 0px !important;
+  bottom: 0px !important;
+  left: 0px !important;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-left: 30px !important;
+  max-width: 300px;
+}
+nav .logo-div {
+  width: 150px;
+  text-align: left !important;
+}
+nav .logo-div i {
+  padding-left: 10px;
+  color: #1DA1F2;
+}
+nav ul .page {
+  color: #1A91DA !important;
+}
+nav ul .searchy {
+  display: none;
+}
+nav ul .nav_a {
+  width: max-content;
+  display: flex;
+  justify-content: space-between;
+  font-size: 21px;
+  font-weight: bolder;
+  color: black;
+  padding: 10px !important;
+}
+nav ul .nav_a i {
+  width: 40px;
+}
+nav ul .nav_a:hover {
+  border: 1px solid transparent !important;
+  border-radius: 30px !important;
+  color: #1DA1F2;
+  background-color: #E8F5FE !important;
+}
+nav ul .listy .more_more {
+  background-color: white;
+  display: none !important;
+  position: absolute;
+  top: 2px;
+  max-width: 250px;
+  max-height: fit-content !important;
+  border: 1px solid lightgray;
+  box-shadow: 0px 0px 20px solid gray;
+}
+nav ul .listy .more_more .not_a {
+  font-weight: normal !important;
+  font-size: 16px !important;
+}
+nav ul .listy:hover .more_more {
+  display: block !important;
+}
+
+.sub-middle-heading {
+  border-bottom: 1px solid lightgray;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.sub-middle-heading textarea:focus {
+  outline: none;
+}
+.sub-middle-heading .tweet-icons .icons {
+  padding-left: 60px;
+  padding-top: 8px;
+}
+.sub-middle-heading .tweet-icons .icons i {
+  color: #1A91DA;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  align-items: center;
+}
+.sub-middle-heading .tweet-icons .icons i:hover {
+  border: 0px solid white;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  background-color: #E8F5FE;
+}
+.sub-middle-heading .tweet-icons .tweetbtn a {
+  width: 80px;
+  border-radius: 20px !important;
+}
+
+.tweet .tweet-icon {
+  display: none;
+}
+.tweet .tweet-icon img {
+  width: 30px;
+  color: white !important;
+}
+.tweet button {
+  width: 220px;
+  height: 50px;
+  background-color: #1A91DA !important;
+  border-radius: 25px !important;
+}
+
+a {
+  color: black;
+  width: max-content;
+}
+a .myProfile {
+  width: max-content;
+  padding: 10px !important;
+}
+a .myProfile .image {
+  width: 45px;
+  height: 45px;
+  border: 1px solid transparent;
+  border-radius: 100%;
+  overflow: hidden;
+}
+a .myProfile h6 {
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+a .myProfile p {
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+a .myProfile i {
+  margin-left: 25px;
+}
+a .myProfile:hover {
+  border: 1px solid transparent !important;
+  border-radius: 30px !important;
+  color: #1DA1F2;
+  background-color: #E8F5FE !important;
+}
+
+.middle-section {
+  border-right: 1px solid lightgray;
+}
+.middle-section .middle-heading {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  top: 0px;
+  border-bottom: 1px solid lightgray;
+}
+.middle-section .middle-heading .bookmark_media i {
+  padding-top: 15px;
+  color: #1A91DA;
+}
+.middle-section .middle-heading .left_head_icons {
+  padding-top: 7px;
+  color: #1A91DA;
+  font-size: 20px;
+}
+.middle-section .middle-heading .left_head_icons .l {
+  margin-left: 20px;
+}
+.middle-section .sub-middle-heading {
+  border-bottom: 1px solid lightgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.middle-section .sub-middle-heading h4 {
+  margin-bottom: 0px;
+}
+.middle-section .pin {
+  padding: 15px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+.middle-section .pin p {
+  margin-bottom: 0px;
+}
+
+.right-section {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 410px !important;
+}
+.right-section .search-bar {
+  background-color: white;
+}
+.right-section .search-bar i {
+  padding-top: 15px;
+  width: 50px;
+  border-radius: 25px;
+  border-left: none !important;
+}
+.right-section .search-bar input {
+  background-color: #EBEEF0;
+  border-radius: 25px;
+}
+.right-section .trends-for-you {
+  margin-top: 15px;
+  padding: 0px;
+  border-radius: 15px;
+  background-color: #F7F9FA !important;
+}
+.right-section .trends-for-you h6 {
+  font-weight: bolder;
+}
+.right-section .trends-for-you i {
+  text-align: right;
+}
+.right-section .trends-for-you .trendyou {
+  border-bottom: 1px solid lightgray;
+}
+.right-section .trends-for-you .trendyou h5 {
+  font-weight: bolder;
+  padding: 10px;
+}
+.right-section .trends-for-you .trendyou .gear {
+  padding-top: 13px;
+  padding-right: 10px;
+  width: fit-content;
+  color: #1DA1F2;
+}
+.right-section .trends-for-you .listingg a {
+  background-color: #F7F9FA;
+}
+.right-section .trends-for-you .listingg a:hover {
+  background-color: #EFF1F2;
+}
+.right-section .trends-for-you .listingg .show-more {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.right-section .W-T-F {
+  background-color: #F7F9FA;
+  border-radius: 15px;
+}
+.right-section .W-T-F .whotofo {
+  border-bottom: 1px solid lightgray;
+}
+.right-section .W-T-F .whotofo h4 {
+  font-weight: bolder;
+  margin-bottom: 0px;
+}
+.right-section .W-T-F .extras {
+  margin-bottom: 0px;
+}
+.right-section .W-T-F .extras p {
+  margin-bottom: 0px;
+}
+.right-section .W-T-F .myMedia2 a {
+  background-color: #F7F9FA;
+}
+.right-section .W-T-F .myMedia2 a:hover {
+  background-color: #EFF1F2;
+}
+.right-section .W-T-F .myMedia2 .followbtn {
+  border-radius: 20px;
+}
+.right-section .W-T-F .myMedia2 .subMedia {
+  padding: 0px !important;
+}
+.right-section .W-T-F .myMedia2 .subMedia p {
+  margin-bottom: 0px;
+}
+.right-section .W-T-F .myMedia2 i {
+  color: #1DA1F2;
+}
+.right-section .W-T-F .myMedia2 .show-more {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.right-section footer {
+  font-size: small;
+  color: gray;
+}
+.right-section footer a {
+  color: gray;
+  margin-left: 10px;
+}
+.right-section footer span {
+  margin-left: 10px;
+}
+
+@media (max-width: 1280px) {
+  .left-section {
+    max-width: 130px;
+  }
+  .left-section nav {
+    max-width: 130px;
+  }
+  .left-section nav .div {
+    width: fit-content;
+  }
+  .left-section nav ul {
+    width: fit-content;
+  }
+  .left-section nav ul .book {
+    display: none;
+  }
+  .left-section nav ul .listing {
+    display: none;
+  }
+  .left-section nav ul li {
+    width: fit-content;
+  }
+  .left-section nav ul a {
+    width: fit-content;
+  }
+  .left-section nav ul a i {
+    width: fit-content;
+  }
+  .left-section nav ul a span {
+    display: none;
+  }
+  .left-section nav .tweet button {
+    display: none;
+  }
+  .left-section nav .tweet .tweet-icon {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #1A91DA;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 100%;
+    text-align: center;
+  }
+  .left-section nav .tweet .tweet-icon img {
+    color: white !important;
+  }
+  .left-section nav .mediaDiv {
+    text-align: left !important;
+    width: 180px;
+  }
+  .left-section nav .mediaDiv .myProfile .myMedia {
+    display: none;
+  }
+  .left-section nav .mediaDiv .myProfile i {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .left-section {
+    margin-left: auto;
+  }
+  .left-section nav {
+    margin-left: 7%;
+  }
+
+  .middle-section {
+    margin-right: auto;
+    max-width: 600px;
+  }
+
+  .right-section {
+    display: none !important;
+  }
+}
+@media (max-width: 820px) {
+  .left-section nav {
+    margin-left: 4%;
+    padding-left: 0px !important;
+  }
+}
+@media (max-width: 690px) {
+  main {
+    margin-left: 0px !important;
+  }
+
+  .middle-section {
+    margin-right: 0.3%;
+  }
+}
+@media (max-width: 620px) {
+  .left-section {
+    max-width: 80px;
+  }
+  .left-section nav {
+    margin-left: 2%;
+  }
+}
+@media (max-width: 500px) {
+  .left-section {
+    max-width: 0px;
+    padding: 0px;
+  }
+  .left-section nav {
+    margin-left: 0px;
+    min-width: 100% !important;
+    position: fixed;
+    top: auto !important;
+    bottom: 0 !important;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+  }
+  .left-section nav .gone-small {
+    display: none;
+  }
+  .left-section nav ul {
+    display: flex !important;
+    justify-content: space-around !important;
+    flex-direction: row !important;
+    width: 100vw !important;
+  }
+  .left-section nav ul .searchy {
+    display: inherit;
+  }
+  .left-section nav a {
+    display: flex !important;
+  }
+  .left-section nav .tweet-icon {
+    position: fixed;
+    bottom: 70px;
+    right: 25px;
+    width: 70px !important;
+    height: 70px !important;
+  }
+}
+
+/*# sourceMappingURL=List.css.map */
